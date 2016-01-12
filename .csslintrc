@@ -1,2 +1,2 @@
---errors=box-model
---warnings=display-property-grouping
+--errors=box-model,display-property-grouping,duplicate-properties,empty-rules,known-properties
+--warnings=compatible-vendor-prefixes,vendor-prefix,shorthand,duplicate-background-images

@@ -1,8 +1,48 @@
-.markdown {
+.test-box-model {
   width: 20px;
   border: 1px solid black;
 }
-.test2 {
-	display:inline;
+
+.test-display-property-grouping {
+	display: inline;
 	height: 25px;
 }
+.test-duplicate-properties {
+	border: 1px solid black;
+	border: 1px solid black;
+}
+.test-empty-rule {
+
+}
+.test-known-properties {
+	cli: red;
+}
+.test-compatible-vendor-prefixed {
+	-webkit-transform: translate(50px, 100px);
+}
+.test-vendor-prefix {
+	-moz-border-radius: 5px;
+}
+.test-shorthand {
+	margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+.test-duplicate-background-images {
+    background: url(sprite.png) -16px 0 no-repeat;
+}
+
+.test-duplicate-background-images {
+    background: url(sprite.png) -32px 0 no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
