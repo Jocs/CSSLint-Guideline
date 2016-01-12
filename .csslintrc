@@ -1,0 +1,2 @@
+--errors=box-model
+--warnings=display-property-grouping
